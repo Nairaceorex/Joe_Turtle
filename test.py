@@ -9,9 +9,9 @@ class FibonacciTestCase(TestCase):
         self.assertEqual(1, x)
 
     def test_second_fibonacci_number_is_1(self):
-        x = find_fibonacci(2)
+        x = fib(2)
         self.assertEqual(1, x)
 
     def test_5th_fibonacci_number_is_5(self):
-        x = find_fibonacci(5)
+        x = fib(5)
         self.assertEqual(5, x)
