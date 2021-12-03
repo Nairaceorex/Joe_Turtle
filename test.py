@@ -14,4 +14,4 @@ class FibonacciTestCase(TestCase):
 
     def test_5th_fibonacci_number_is_5(self):
         x = fib(5)
-        self.assertEqual(5, x)
+        self.assertEqual(7, x)
